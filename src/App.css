@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+.App-header {
+  background-color: #ef5350;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.App-browser {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.App-browser__input {
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  box-shadow: 1px 1px 7px 0px gray;
+}
+
+.App-browser__input:focus {
+  outline: none;
+}
